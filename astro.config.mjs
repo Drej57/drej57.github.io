@@ -10,6 +10,6 @@ const REPO_NAME = 'verdant-virgo';
 // https://astro.build/config
 export default defineConfig({
 	site: `https://${GITHUB_USERNAME}.github.io`,
-	base: `/${REPO_NAME}`,
+	// base: `/${REPO_NAME}`,
 	integrations: [mdx(), sitemap()],
 });
